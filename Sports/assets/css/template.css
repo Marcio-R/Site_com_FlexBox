@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    justify-content: center;
+    height: 120px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 990px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+img{
+    width: 55%;   
+}
+.menu{
+
+    display: flex;
+    align-items: center;
+}
+nav ul li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav ul{
+    display: flex;
+}
+nav a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(2, 15, 67);
+}
+
+nav .active a, nav a:hover {
+    background-color: rgb(29, 29, 86);
+    color: white;
+}
+
+#banner{
+    background-image:url('../Imagens/moto.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 1000px;
+}
