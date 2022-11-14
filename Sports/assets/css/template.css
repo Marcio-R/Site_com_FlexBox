@@ -277,3 +277,62 @@ footer{
 footer img{
     width: 5%;
 }
+.menuMobile{
+    display: none;
+    width: 40px;
+    height: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+}
+
+.mm_line{
+    height: 3px;
+    background-color: rgb(34, 15, 153);
+}
+@media (max-width:600px){
+    .banner_headline h1{
+        font-size: 55px;
+        padding: 20px;
+    }
+
+    .banner_headline h2{
+        font-size: 17px;
+    }
+    .banner_options{
+        height: auto;
+        flex-direction: column;
+    }
+    .container{
+        flex-direction: column;
+    }
+    #geral section{
+        padding: 25px;
+    }
+    #geral aside{
+        padding: 20px;
+    }
+    .footer_area, .footer_copy{
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    header .container{
+        flex-direction: row;
+    }
+    nav ul{
+        flex-direction: column;
+        display: none;
+    }
+    header{
+        height: auto;
+    }
+    .logo{
+        padding-left: 20px;
+    }
+    .menuMobile{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}
