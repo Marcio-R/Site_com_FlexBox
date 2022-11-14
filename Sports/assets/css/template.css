@@ -1,7 +1,6 @@
 body{
     margin: 0;
     padding: 0;
-    padding-bottom: 300px;
 }
 header{
     display: flex;
@@ -164,6 +163,22 @@ nav .active a, nav a:hover {
 #geral aside{
     flex: 1;
 }
+
+aside article{
+    flex: 1;
+    min-width: 100px;
+    margin-right: 15px;
+}
+
+aside img{
+    width: 100%;
+    height:auto;
+}
+
+aside .dpFisio, .dpMedico, .dpNutricao, .dpTreino{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
 .widget_title{
     margin-top: 30px;
     margin-bottom: 20px;
@@ -231,4 +246,34 @@ article .news_resume{
     font-size: 14px;
     line-height: 20px;
     margin-bottom: 30px;
+}
+
+footer{
+    background-color: rgb(40, 39, 39);
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.footer_area{
+    display: flex;
+}
+.flexColumn{
+    flex-direction:column;
+}
+.footer_areaitem{
+    flex: 1;
+    color: aliceblue;
+}
+
+.footer_copy{
+    color: white;
+    border-top: solid 1px black;
+    line-height: 40px;
+    font-size: 12px;
+    margin-top: 30px;
+}
+footer img{
+    width: 5%;
 }
