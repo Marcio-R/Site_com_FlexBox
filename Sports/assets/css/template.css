@@ -323,6 +323,10 @@ footer img{
     nav ul{
         flex-direction: column;
         display: none;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        background-color: rgb(35, 89, 136);
     }
     header{
         height: auto;
@@ -335,4 +339,5 @@ footer img{
         flex-direction: column;
         justify-content: space-around;
     }
+
 }
